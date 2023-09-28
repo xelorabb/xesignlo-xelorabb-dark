@@ -1,0 +1,10 @@
+{
+  "icon": {
+    "xs": { "value": "calc({spacing}*4)" },
+    "sm": { "value": "calc({spacing}*6)" },
+    "md": { "value": "calc({spacing}*8)" },
+    "lg": { "value": "calc({spacing}*12)" },
+    "xl": { "value": "calc({spacing}*16)" },
+    "2xl": { "value": "calc({spacing}*18)" }
+  }
+}

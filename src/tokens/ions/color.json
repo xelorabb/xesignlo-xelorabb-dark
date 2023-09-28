@@ -1,0 +1,93 @@
+{
+  "color": {
+    "neutral": {
+      "darkest": { "value": "#111111" },
+      "darker": { "value": "#333333" },
+      "dark": { "value": "#444444" },
+      "base": { "value": "#666666" },
+      "light": { "value": "#8a8a8a" },
+      "lighter": { "value": "#acacac" },
+      "lightest": { "value": "#d0d0d0" }
+    },
+
+    "primary": {
+      "darkest": { "value": "#c1801d" },
+      "darker": { "value": "#ce881f" },
+      "dark": { "value": "#da9021" },
+      "base": { "value": "#e49621" },
+      "light": { "value": "#e99a23" },
+      "lighter": { "value": "#f0a432" },
+      "lightest": { "value": "#f3ae45" }
+    },
+
+    "secondary": {
+      "darkest": { "value": "#0e7987" },
+      "darker": { "value": "#128898" },
+      "dark": { "value": "#1993a4" },
+      "base": { "value": "#1ba1b3" },
+      "light": { "value": "#20afc2" },
+      "lighter": { "value": "#25bed3" },
+      "lightest": { "value": "#3dd2e5" }
+    },
+
+    "tertiary": {
+      "darkest": { "value": "#620588" },
+      "darker": { "value": "#70069b" },
+      "dark": { "value": "#7d0dab" },
+      "base": { "value": "#921dc2" },
+      "light": { "value": "#9e4fd3" },
+      "lighter": { "value": "#a967d6" },
+      "lightest": { "value": "#ac71d4" }
+    },
+
+    "accent": {
+      "darkest": { "value": "#423aa0" },
+      "darker": { "value": "#4a40c8" },
+      "dark": { "value": "#564be8" },
+      "base": { "value": "#6155fb" },
+      "light": { "value": "#786dfe" },
+      "lighter": { "value": "#9289ff" },
+      "lightest": { "value": "#b0a9fc" }
+    },
+
+    "error": {
+      "darkest": { "value": "#c50f0f" },
+      "darker": { "value": "#cd2424" },
+      "dark": { "value": "#cf3737" },
+      "base": { "value": "#d34141" },
+      "light": { "value": "#d15555" },
+      "lighter": { "value": "#d96666" },
+      "lightest": { "value": "#de7b7b" }
+    },
+
+    "success": {
+      "darkest": { "value": "#00942a" },
+      "darker": { "value": "#12ab3d" },
+      "dark": { "value": "#1dbc4a" },
+      "base": { "value": "#2bcd59" },
+      "light": { "value": "#3ada67" },
+      "lighter": { "value": "#50e77b" },
+      "lightest": { "value": "#62fa8d" }
+    },
+
+    "warning": {
+      "darkest": { "value": "#c1801d" },
+      "darker": { "value": "#ce881f" },
+      "dark": { "value": "#da9021" },
+      "base": { "value": "#e49621" },
+      "light": { "value": "#e99a23" },
+      "lighter": { "value": "#f0a432" },
+      "lightest": { "value": "#f3ae45" }
+    },
+
+    "info": {
+      "darkest": { "value": "#0e7987" },
+      "darker": { "value": "#128898" },
+      "dark": { "value": "#1993a4" },
+      "base": { "value": "#1ba1b3" },
+      "light": { "value": "#20afc2" },
+      "lighter": { "value": "#25bed3" },
+      "lightest": { "value": "#3dd2e5" }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "card": {
+    "color": {
+      "text": { "value": "{color.neutral.lightest}" },
+      "background": { "value": "{color.neutral.base}" }
+    },
+    "border": {
+      "width": { "value": "0" },
+      "color": { "value": "{color.neutral.base}" },
+      "style": { "value": "solid"},
+      "radius": {
+        "top-left": { "value": "calc({spacing}*1)" },
+        "top-right": { "value": "calc({spacing}*1)" },
+        "bottom-left": { "value": "calc({spacing}*1)" },
+        "bottom-right": { "value": "calc({spacing}*1)" }
+      }
+    },
+    "header-border": { "value": "calc({spacing}/4) solid {color.neutral.lighter}" },
+    "footer-border": { "value": "calc({spacing}/4) solid {color.neutral.lighter}" }
+  }
+}

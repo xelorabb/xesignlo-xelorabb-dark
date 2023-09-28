@@ -1,0 +1,91 @@
+{
+  "typo": {
+    "headline-size": {
+      "1": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "700" },
+        "font-size": { "value": "40px" },
+        "line-height": { "value": "40px" }
+      },
+
+      "2": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "500" },
+        "font-size": { "value": "32px" },
+        "line-height": { "value": "32px" }
+      },
+
+      "3": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "500" },
+        "font-size": { "value": "28px" },
+        "line-height": { "value": "28px" }
+      },
+
+      "4": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "500" },
+        "font-size": { "value": "24px" },
+        "line-height": { "value": "24px" }
+      },
+
+      "5": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "400" },
+        "font-size": { "value": "20px" },
+        "line-height": { "value": "20px" }
+      },
+
+      "6": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "400" },
+        "font-size": { "value": "18px" },
+        "line-height": { "value": "18px" }
+      }
+    },
+    "body-size": {
+      "1": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "400" },
+        "font-size": { "value": "14px" },
+        "line-height": { "value": "14px" }
+      },
+
+      "2": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "400" },
+        "font-size": { "value": "12px" },
+        "line-height": { "value": "12px" }
+      },
+
+      "3": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "400" },
+        "font-size": { "value": "10px" },
+        "line-height": { "value": "10px" }
+      }
+    },
+    "btn-size": {
+      "1": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "500" },
+        "font-size": { "value": "16px" },
+        "line-height": { "value": "16px" }
+      },
+
+      "2": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "500" },
+        "font-size": { "value": "14px" },
+        "line-height": { "value": "14px" }
+      },
+
+      "3": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "500" },
+        "font-size": { "value": "12px" },
+        "line-height": { "value": "12px" }
+      }
+    }
+  }
+}

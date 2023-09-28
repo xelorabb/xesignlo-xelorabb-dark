@@ -1,0 +1,35 @@
+{
+  "input-field": {
+    "color": { "value": "{color.neutral.lightest}" },
+    "background-color": { "value": "{color.neutral.light}" },
+    "border": { "value": "calc({spacing}/2) solid {color.neutral.light}" },
+    "outline": { "value": "none"},
+    "border-radius": {
+      "top-left": { "value": "calc({spacing}*1)" },
+      "top-right": { "value": "calc({spacing}*1)" },
+      "bottom-left": { "value": "calc({spacing}*1)" },
+      "bottom-right": { "value": "calc({spacing}*1)" }
+    },
+    "padding": {
+      "top": { "value": "calc({spacing}*1)" },
+      "bottom": { "value": "calc({spacing}*1)" },
+      "left": { "value": "calc({spacing}*2)" },
+      "right": { "value": "calc({spacing}*2)" }
+    },
+    "info": {
+      "border": { "value": "calc({spacing}/2) solid {color.info.dark}" } 
+    },
+    "success": {
+      "border": { "value": "calc({spacing}/2) solid {color.success.darker}" } 
+    },
+    "warning": {
+      "border": { "value": "calc({spacing}/2) solid {color.warning.darker}" } 
+    },
+    "error": {
+      "border": { "value": "calc({spacing}/2) solid {color.error.darker}" } 
+    },
+    "md": {
+
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@xesignlo/xelorabb-dark",
+  "version": "0.0.1",
+  "description": "Dark xesignlo theme",
+  "keywords": [
+    "style",
+    "ui",
+    "scss",
+    "theme"
+  ],
+  "author": "xelorabb",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm run build-tokens && tsc && vite build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build-tokens": "style-dictionary build -c ./style-dictionary.config.json"
+  },
+  "dependencies": {
+    "@fontsource/ubuntu": "^5.0.8",
+    "@xesignlo/core": "^0.0.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "7.4.5",
+    "@storybook/addon-interactions": "7.4.5",
+    "@storybook/addon-links": "7.4.5",
+    "@storybook/blocks": "7.4.5",
+    "@storybook/html": "7.4.5",
+    "@storybook/html-vite": "7.4.5",
+    "@storybook/testing-library": "0.2.1",
+    "path": "^0.12.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.68.0",
+    "storybook": "7.4.5",
+    "style-dictionary": "^3.8.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  }
+}
