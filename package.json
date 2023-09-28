@@ -1,6 +1,6 @@
 {
   "name": "@xesignlo/xelorabb-dark",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dark xesignlo theme",
   "keywords": [
     "style",
@@ -10,6 +10,10 @@
   ],
   "author": "xelorabb",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xelorabb/xesignlo-xelorabb-dark.git"
+  },
   "type": "module",
   "scripts": {
     "build": "pnpm run build-tokens && tsc && vite build",
@@ -19,7 +23,7 @@
   },
   "dependencies": {
     "@fontsource/ubuntu": "^5.0.8",
-    "@xesignlo/core": "^0.0.3"
+    "@xesignlo/core": "^0.0.4"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "7.4.5",
