@@ -13,6 +13,7 @@ const meta = {
     size: {
       control: 'select',
       options: {
+        'small': 'sm', 
         'medium': 'md', 
         'large': 'lg'
       }
@@ -22,6 +23,14 @@ const meta = {
 
 export default meta;
 type Story = StoryObj<ButtonProps>;
+
+export const PrimarySmall: Story = {
+  args: {
+    label: 'Small Button',
+    size: 'sm',
+    onClick: () => {}
+  },
+};
 
 export const PrimaryMedium: Story = {
   args: {

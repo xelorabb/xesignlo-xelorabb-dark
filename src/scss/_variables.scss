@@ -1,11 +1,21 @@
 
 // Do not edit directly
-// Generated on Thu, 28 Sep 2023 23:36:12 GMT
+// Generated on Sat, 30 Sep 2023 11:41:22 GMT
 
 $btn-primary-color: #d0d0d0;
 $btn-primary-background-color: #444444;
 $btn-primary-border: calc(4px/2) solid #d0d0d0;
 $btn-primary-hover-background-color: #333333;
+$btn-sm-font: '.btn-size-3';
+$btn-sm-text-decoration: none;
+$btn-sm-padding-top: calc(4px*1);
+$btn-sm-padding-bottom: calc(4px*1);
+$btn-sm-padding-left: calc(4px*2);
+$btn-sm-padding-right: calc(4px*2);
+$btn-sm-border-radius-top-left: calc(4px/2);
+$btn-sm-border-radius-top-right: calc(4px/2);
+$btn-sm-border-radius-bottom-left: calc(4px/2);
+$btn-sm-border-radius-bottom-right: calc(4px/2);
 $btn-md-font: '.btn-size-2';
 $btn-md-text-decoration: none;
 $btn-md-padding-top: calc(4px*2);
