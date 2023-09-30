@@ -14,18 +14,18 @@ const meta = {
     max: { control: 'number' },
     mode: {
       control: 'select',
-      options: ['primary', 'secondary']
+      options: ['primary', 'secondary'],
     },
     size: {
       control: 'select',
       options: {
         'extra small': 'xs',
-        'small': 'sm', 
-        'medium': 'md', 
-        'large': 'lg'
-      }
+        small: 'sm',
+        medium: 'md',
+        large: 'lg',
+      },
     },
-    postfix: { control: 'text' }
+    postfix: { control: 'text' },
   },
 } satisfies Meta<ProgressBarProps>;
 
@@ -35,34 +35,34 @@ type Story = StoryObj<ProgressBarProps>;
 export const PrimaryExtraSmall: Story = {
   args: {
     value: 2,
-    size: 'xs'
+    size: 'xs',
   },
 };
 
 export const PrimarySmall: Story = {
   args: {
     value: 3,
-    size: 'sm'
+    size: 'sm',
   },
 };
 
 export const PrimaryMedium: Story = {
   args: {
     value: 4,
-    size: 'md'
+    size: 'md',
   },
 };
 
 export const PrimaryLarge: Story = {
   args: {
     value: 4,
-    size: 'lg'
+    size: 'lg',
   },
 };
 
 export const Secondary: Story = {
   args: {
     value: 5,
-    mode: 'secondary'
+    mode: 'secondary',
   },
 };

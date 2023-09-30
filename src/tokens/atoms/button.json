@@ -3,58 +3,28 @@
     "primary": {
       "color": { "value": "{color.neutral.lightest}" },
       "background-color": { "value": "{color.neutral.dark}" },
-      "border": { "value": "calc({spacing}/2) solid {color.neutral.lightest}"},
+      "border": { "value": "2px solid {color.neutral.lightest}" },
       "hover": {
         "background-color": { "value": "{color.neutral.darker}" }
       }
     },
     "sm": {
-      "font": { "value": "'.btn-size-3'"},
+      "font": { "value": "'.btn-size-3'" },
       "text-decoration": { "value": "none" },
-      "padding": {
-        "top": { "value": "calc({spacing}*1)" },
-        "bottom": { "value": "calc({spacing}*1)" },
-        "left": { "value": "calc({spacing}*2)" },
-        "right": { "value": "calc({spacing}*2)" }
-      },
-      "border-radius": {
-        "top-left": { "value": "calc({spacing}/2)" },
-        "top-right": { "value": "calc({spacing}/2)" },
-        "bottom-left": { "value": "calc({spacing}/2)" },
-        "bottom-right": { "value": "calc({spacing}/2)" }
-      }
+      "padding": { "value": "calc({spacing}*1) calc({spacing}*2)" },
+      "border-radius": { "value": "2px" }
     },
     "md": {
-      "font": { "value": "'.btn-size-2'"},
+      "font": { "value": "'.btn-size-2'" },
       "text-decoration": { "value": "none" },
-      "padding": {
-        "top": { "value": "calc({spacing}*2)" },
-        "bottom": { "value": "calc({spacing}*2)" },
-        "left": { "value": "calc({spacing}*4)" },
-        "right": { "value": "calc({spacing}*4)" }
-      },
-      "border-radius": {
-        "top-left": { "value": "calc({spacing}*1)" },
-        "top-right": { "value": "calc({spacing}*1)" },
-        "bottom-left": { "value": "calc({spacing}*1)" },
-        "bottom-right": { "value": "calc({spacing}*1)" }
-      }
+      "padding": { "value": "calc({spacing}*2) calc({spacing}*4)" },
+      "border-radius": { "value": "4px" }
     },
     "lg": {
-      "font": { "value": "'.btn-size-2'"},
+      "font": { "value": "'.btn-size-2'" },
       "text-decoration": { "value": "none" },
-      "padding": {
-        "top": { "value": "calc({spacing}*3)" },
-        "bottom": { "value": "calc({spacing}*3)" },
-        "left": { "value": "calc({spacing}*6)" },
-        "right": { "value": "calc({spacing}*6)" }
-      },
-      "border-radius": {
-        "top-left": { "value": "calc({spacing}*1)" },
-        "top-right": { "value": "calc({spacing}*1)" },
-        "bottom-left": { "value": "calc({spacing}*1)" },
-        "bottom-right": { "value": "calc({spacing}*1)" }
-      }
+      "padding": { "value": "calc({spacing}*3) calc({spacing}*6)" },
+      "border-radius": { "value": "4px" }
     }
   }
 }

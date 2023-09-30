@@ -15,39 +15,35 @@ export default meta;
 type Story = StoryObj<CardProps>;
 
 const header = document.createElement('div');
-header.innerText = "Header";
+header.innerText = 'Header';
 
 const content = document.createElement('div');
-content.innerText = "Content";
+content.innerText = 'Content';
 
 const footer = document.createElement('div');
-footer.innerText = "Footer";
+footer.innerText = 'Footer';
 
 const icon = document.createElement('i');
-icon.className = [
-  "fa-sharp", 
-  "fa-solid",
-  "fa-user"
-].join(' ');
+icon.className = ['fa-sharp', 'fa-solid', 'fa-user'].join(' ');
 content.append(icon);
 
 export const Default: Story = {
   args: {
-    content: content.cloneNode(true) as HTMLElement
+    content: content.cloneNode(true) as HTMLElement,
   },
-}
+};
 
 export const WithHeader: Story = {
   args: {
     header: header.cloneNode(true) as HTMLElement,
-    content: content.cloneNode(true) as HTMLElement
+    content: content.cloneNode(true) as HTMLElement,
   },
 };
 
 export const WithFooter: Story = {
   args: {
     content: content.cloneNode(true) as HTMLElement,
-    footer: footer.cloneNode(true) as HTMLElement
+    footer: footer.cloneNode(true) as HTMLElement,
   },
 };
 
@@ -55,6 +51,6 @@ export const Full: Story = {
   args: {
     header: header.cloneNode(true) as HTMLElement,
     content: content.cloneNode(true) as HTMLElement,
-    footer: footer.cloneNode(true) as HTMLElement
+    footer: footer.cloneNode(true) as HTMLElement,
   },
 };

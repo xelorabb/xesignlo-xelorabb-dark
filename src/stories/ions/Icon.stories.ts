@@ -11,24 +11,22 @@ const meta = {
   argTypes: {
     name: {
       control: 'select',
-      options: [
-        'box', 'checkbox', 'checkbox-checked', 'star', 'trash'
-      ]
+      options: ['box', 'checkbox', 'checkbox-checked', 'star', 'trash'],
     },
     type: {
       control: 'select',
-      options: ['regular', 'solid']
+      options: ['regular', 'solid'],
     },
     size: {
       control: 'select',
       options: {
         'extra small': 'xs',
-        'small': 'sm',
-        'medium': 'md',
-        'large': 'lg',
+        small: 'sm',
+        medium: 'md',
+        large: 'lg',
         'extra large': 'xl',
-        'huge': '2xl'
-      }
+        huge: '2xl',
+      },
     },
   },
 } satisfies Meta<IconProps>;
@@ -41,8 +39,8 @@ function generateStory(name: string, type: any): Story {
     args: {
       name: name,
       type: type,
-      size: 'md'
-    }
+      size: 'md',
+    },
   };
 }
 
@@ -52,8 +50,14 @@ export const BoxSolid: Story = generateStory('box', 'solid');
 export const CheckboxRegular: Story = generateStory('checkbox', 'regular');
 export const CheckboxSolid: Story = generateStory('checkbox', 'solid');
 
-export const CheckboxCheckedRegular: Story = generateStory('checkbox-checked', 'regular');
-export const CheckboxCheckedSolid: Story = generateStory('checkbox-checked', 'solid');
+export const CheckboxCheckedRegular: Story = generateStory(
+  'checkbox-checked',
+  'regular'
+);
+export const CheckboxCheckedSolid: Story = generateStory(
+  'checkbox-checked',
+  'solid'
+);
 
 export const StarRegular: Story = generateStory('star', 'regular');
 export const StarSolid: Story = generateStory('star', 'solid');

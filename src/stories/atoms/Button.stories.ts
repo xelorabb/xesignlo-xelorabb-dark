@@ -13,10 +13,10 @@ const meta = {
     size: {
       control: 'select',
       options: {
-        'small': 'sm', 
-        'medium': 'md', 
-        'large': 'lg'
-      }
+        small: 'sm',
+        medium: 'md',
+        large: 'lg',
+      },
     },
   },
 } satisfies Meta<ButtonProps>;
@@ -28,7 +28,7 @@ export const PrimarySmall: Story = {
   args: {
     label: 'Small Button',
     size: 'sm',
-    onClick: () => {}
+    onClick: () => {},
   },
 };
 
@@ -36,7 +36,7 @@ export const PrimaryMedium: Story = {
   args: {
     label: 'Medium Button',
     size: 'md',
-    onClick: () => {}
+    onClick: () => {},
   },
 };
 
@@ -44,7 +44,7 @@ export const PrimaryLarge: Story = {
   args: {
     label: 'Large Button',
     size: 'lg',
-    onClick: () => {}
+    onClick: () => {},
   },
 };
 
@@ -52,6 +52,6 @@ export const PrimaryLink: Story = {
   args: {
     label: 'Link Button',
     size: 'md',
-    href: '/'
+    href: '/',
   },
 };

@@ -13,15 +13,15 @@ const meta = {
     href: { control: 'text' },
     mode: {
       control: 'select',
-      options: ['primary', 'secondary']
+      options: ['primary', 'secondary'],
     },
     size: {
       control: 'select',
       options: {
-        'small': 'sm', 
-        'medium': 'md', 
-        'large': 'lg'
-      }
+        small: 'sm',
+        medium: 'md',
+        large: 'lg',
+      },
     },
   },
 } satisfies Meta<LinkProps>;
@@ -33,7 +33,7 @@ export const LinkSmall: Story = {
   args: {
     label: 'Small Link',
     href: '/',
-    size: 'sm'
+    size: 'sm',
   },
 };
 
@@ -41,7 +41,7 @@ export const LinkMedium: Story = {
   args: {
     label: 'Medium Link',
     href: '/',
-    size: 'md'
+    size: 'md',
   },
 };
 
@@ -49,7 +49,7 @@ export const LinkLarge: Story = {
   args: {
     label: 'Large Link',
     href: '/',
-    size: 'lg'
+    size: 'lg',
   },
 };
 
@@ -58,6 +58,6 @@ export const LinkSecondary: Story = {
     label: 'Secondary Link',
     href: '/',
     mode: 'secondary',
-    size: 'md'
+    size: 'md',
   },
 };

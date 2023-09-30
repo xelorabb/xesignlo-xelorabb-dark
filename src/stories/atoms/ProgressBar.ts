@@ -22,12 +22,12 @@ export const createProgressBar = ({
   let label = document.createElement('label');
 
   label.innerHTML = `${value}${postfix}`;
-  progress.style.width = `${((value-min)/(max-min))*100}%`
+  progress.style.width = `${((value - min) / (max - min)) * 100}%`;
 
   progressBar.className = [
     'progress-bar',
     `progress-bar--${mode}`,
-    `progress-bar--${size}`
+    `progress-bar--${size}`,
   ].join(' ');
 
   progressBar.appendChild(progress);

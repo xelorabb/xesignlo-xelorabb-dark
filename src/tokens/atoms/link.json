@@ -1,22 +1,21 @@
 {
   "link": {
-
     "primary": {
-      "color": { "value": "{color.neutral.lightest}" }, 
-      "text-decoration": { "value": "none" }, 
-  
+      "color": { "value": "{color.neutral.lightest}" },
+      "text-decoration": { "value": "none" },
+
       "hover": {
-        "color": { "value": "{color.primary.base}" }, 
+        "color": { "value": "{color.primary.base}" },
         "text-decoration": { "value": "none" }
       }
     },
 
     "secondary": {
-      "color": { "value": "{color.neutral.lightest}" }, 
-      "text-decoration": { "value": "none" }, 
-  
+      "color": { "value": "{color.neutral.lightest}" },
+      "text-decoration": { "value": "none" },
+
       "hover": {
-        "color": { "value": "{color.secondary.base}" }, 
+        "color": { "value": "{color.secondary.base}" },
         "text-decoration": { "value": "none" }
       }
     },

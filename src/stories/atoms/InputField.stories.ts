@@ -12,29 +12,19 @@ const meta = {
     value: { control: 'text' },
     type: {
       control: 'select',
-      options: [
-        'text',
-        'email', 
-        'password'
-      ]
+      options: ['text', 'email', 'password'],
     },
     size: {
       control: 'select',
       options: {
-        'small': 'sm',
-        'medium': 'md', 
-        'large': 'lg'
-      }
+        small: 'sm',
+        medium: 'md',
+        large: 'lg',
+      },
     },
     state: {
       control: 'select',
-      options: [
-        'default',
-        'info', 
-        'success',
-        'warning',
-        'error'
-      ]
+      options: ['default', 'info', 'success', 'warning', 'error'],
     },
   },
 } satisfies Meta<InputFieldProps>;
@@ -51,7 +41,7 @@ export const Small: Story = {
     value: 'Input Field Value',
     state: 'default',
     size: 'sm',
-    type: 'text'
+    type: 'text',
   },
 };
 
@@ -60,7 +50,7 @@ export const Medium: Story = {
     value: 'Input Field Value',
     state: 'default',
     size: 'md',
-    type: 'text'
+    type: 'text',
   },
 };
 
@@ -69,7 +59,7 @@ export const Large: Story = {
     value: 'Input Field Value',
     state: 'default',
     size: 'lg',
-    type: 'text'
+    type: 'text',
   },
 };
 
@@ -78,7 +68,7 @@ export const Placeholder: Story = {
     placeholder: 'placeholder text',
     state: 'default',
     size: 'lg',
-    type: 'text'
+    type: 'text',
   },
 };
 
@@ -87,7 +77,7 @@ export const Info: Story = {
     value: 'Info Field',
     state: 'info',
     size: 'lg',
-    type: 'text'
+    type: 'text',
   },
 };
 
@@ -96,7 +86,7 @@ export const Success: Story = {
     value: 'Success Field',
     state: 'success',
     size: 'lg',
-    type: 'text'
+    type: 'text',
   },
 };
 
@@ -105,7 +95,7 @@ export const Warning: Story = {
     value: 'Warning Field',
     state: 'warning',
     size: 'lg',
-    type: 'text'
+    type: 'text',
   },
 };
 
@@ -114,6 +104,6 @@ export const Error: Story = {
     value: 'Error Field',
     state: 'error',
     size: 'lg',
-    type: 'text'
+    type: 'text',
   },
 };

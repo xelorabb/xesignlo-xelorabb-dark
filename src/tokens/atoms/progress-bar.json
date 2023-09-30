@@ -4,10 +4,10 @@
       "color": { "value": "{color.neutral.lightest}" },
       "background-color": { "value": "transparent" },
       "progress": {
-        "background-color": { "value": "{color.primary.base} "}
+        "background-color": { "value": "{color.primary.base} " }
       }
     },
-    
+
     "secondary": {
       "color": { "value": "{color.neutral.lightest}" },
       "background-color": { "value": "transparent" },
@@ -15,7 +15,7 @@
         "background-color": { "value": "{color.secondary.base}" }
       }
     },
-    
+
     "xs": {
       "font": { "value": "'.body-size-4'" },
       "height": { "value": "13px" },
@@ -25,7 +25,7 @@
         "offset": { "value": "-11px" }
       }
     },
-    
+
     "sm": {
       "font": { "value": "'.body-size-3'" },
       "height": { "value": "16px" },

@@ -1,6 +1,6 @@
 {
   "name": "@xesignlo/xelorabb-dark",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Dark xesignlo theme",
   "keywords": [
     "style",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@fontsource/ubuntu": "^5.0.8",
-    "@xesignlo/core": "^0.0.5"
+    "@xesignlo/core": "^0.0.6"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "7.4.5",

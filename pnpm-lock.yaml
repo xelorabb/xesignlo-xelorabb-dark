@@ -9,8 +9,8 @@ dependencies:
     specifier: ^5.0.8
     version: 5.0.8
   '@xesignlo/core':
-    specifier: ^0.0.5
-    version: 0.0.5
+    specifier: ^0.0.6
+    version: 0.0.6
 
 devDependencies:
   '@storybook/addon-essentials':
@@ -3449,8 +3449,8 @@ packages:
       '@types/yargs-parser': 21.0.1
     dev: true
 
-  /@xesignlo/core@0.0.5:
-    resolution: {integrity: sha512-SYPWHkVo/XMtnF9IPRSBGmDCh4KJP55G6y0qJriAP5DWtCeFf1jX/MNO1jz8V8Qe9Q2r225wTFknSaOFDYGcRw==}
+  /@xesignlo/core@0.0.6:
+    resolution: {integrity: sha512-vUfSFI8T0puzhXeQxUTQbHQ7S7hktoh2pVSLZwGI7agc5DiWtwOdSFHDY+gQw2qLx6btpmFSNRNeaArM6feioQ==}
     dev: false
 
   /@yarnpkg/esbuild-plugin-pnp@3.0.0-rc.15(esbuild@0.18.20):

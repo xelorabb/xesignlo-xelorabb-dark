@@ -11,7 +11,7 @@ export const createLink = ({
   label,
   href,
   mode = 'primary',
-  size = 'md'
+  size = 'md',
 }: LinkProps) => {
   let link = document.createElement('a');
   link.innerHTML = label;
@@ -20,7 +20,7 @@ export const createLink = ({
   link.className = [
     'link',
     mode ? `link--${mode}` : '',
-    size ? `link--${size}` : ''
+    size ? `link--${size}` : '',
   ].join(' ');
 
   return link;

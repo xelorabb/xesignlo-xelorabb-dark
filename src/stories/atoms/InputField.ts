@@ -13,18 +13,22 @@ export const createInputField = ({
   state = 'default',
   size = 'md',
   value,
-  placeholder
+  placeholder,
 }: InputFieldProps) => {
   const input = document.createElement('input');
   input.type = type;
   input.className = [
     'input-field',
     `input-field--${state}`,
-    `input-field--${size}`
+    `input-field--${size}`,
   ].join(' ');
 
-  if(value) { input.value = value };
-  if(placeholder) { input.placeholder = placeholder };
+  if (value) {
+    input.value = value;
+  }
+  if (placeholder) {
+    input.placeholder = placeholder;
+  }
 
   return input;
-}
+};

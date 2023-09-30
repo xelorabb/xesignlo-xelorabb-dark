@@ -27,11 +27,7 @@ export const createButton = ({
   }
 
   btn.innerText = label;
-  btn.className = [
-    'btn',
-    `btn--${mode}`,
-    `btn--${size}`
-  ].join(' ');
+  btn.className = ['btn', `btn--${mode}`, `btn--${size}`].join(' ');
 
   return btn;
 };
