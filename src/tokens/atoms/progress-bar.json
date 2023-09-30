@@ -1,0 +1,59 @@
+{
+  "progress-bar": {
+    "primary": {
+      "color": { "value": "{color.neutral.lightest}" },
+      "background-color": { "value": "transparent" },
+      "progress": {
+        "background-color": { "value": "{color.primary.base} "}
+      }
+    },
+    
+    "secondary": {
+      "color": { "value": "{color.neutral.lightest}" },
+      "background-color": { "value": "transparent" },
+      "progress": {
+        "background-color": { "value": "{color.secondary.base}" }
+      }
+    },
+    
+    "xs": {
+      "font": { "value": "'.body-size-4'" },
+      "height": { "value": "13px" },
+      "border": { "value": "1px solid {color.neutral.lightest}" },
+      "border-radius": { "value": "2px" },
+      "label": {
+        "offset": { "value": "-11px" }
+      }
+    },
+    
+    "sm": {
+      "font": { "value": "'.body-size-3'" },
+      "height": { "value": "16px" },
+      "border": { "value": "1px solid {color.neutral.lightest}" },
+      "border-radius": { "value": "2px" },
+      "label": {
+        "offset": { "value": "-13px" }
+      }
+    },
+
+    "md": {
+      "font": { "value": "'.body-size-2'" },
+      "height": { "value": "19px" },
+      "border": { "value": "1px solid {color.neutral.lightest}" },
+      "border-radius": { "value": "2px" },
+      "label": {
+        "offset": { "value": "-16px" }
+      }
+    },
+
+    "lg": {
+      "font": { "value": "'.body-size-1'" },
+      "height": { "value": "24px" },
+      "border": { "value": "1px solid {color.neutral.lightest}" },
+      "border-radius": { "value": "2px" },
+      "label": {
+        "offset": { "value": "-20px" }
+      }
+    }
+  }
+}
