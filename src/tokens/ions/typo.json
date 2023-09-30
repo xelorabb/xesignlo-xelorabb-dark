@@ -63,6 +63,13 @@
         "font-weight": { "value": "400" },
         "font-size": { "value": "10px" },
         "line-height": { "value": "10px" }
+      },
+
+      "4": {
+        "font-family": { "value": "Ubuntu" },
+        "font-weight": { "value": "400" },
+        "font-size": { "value": "8px" },
+        "line-height": { "value": "8px" }
       }
     },
     "btn-size": {
